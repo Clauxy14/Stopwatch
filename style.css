@@ -38,8 +38,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  
- height: 100vh; 
+  height: 100vh;
 }
 
 .Stopwatch-container {
@@ -49,13 +48,10 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   width: 60%;
-   margin: auto;   
+  margin: auto;
   padding-top: 2rem;
   transition: background 0.3s, color 0.3s;
 }
-
-
-
 
 .display-number {
   margin-top: 10px;
@@ -154,6 +150,9 @@ body.dark .display-number {
 }
 
 @media (max-width: 767px) {
+  .stopwatch-wrapper {
+   height: 0;
+  }
   .Stopwatch-container {
     width: 90%;
     box-shadow: none;
@@ -183,9 +182,9 @@ body.dark .display-number {
   }
 
   #themeToggle {
-  width: 80px;
-  height: 30px;
-  border-radius: 50px;
-  font-size: 0.7rem;
-}
+    width: 80px;
+    height: 30px;
+    border-radius: 50px;
+    font-size: 0.7rem;
+  }
 }
